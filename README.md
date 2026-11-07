@@ -53,6 +53,7 @@ Once your job clears the queue, fetch your log files and computational outputs b
 ---
 
 ## 📁 Directory Structure
+Expect the following file structure when test case files are successfully written out:
 ```text
 hpc-test-project/
 ├── deploy.sh             # Main orchestration script (Handles MFA, rsync, and sbatch)
